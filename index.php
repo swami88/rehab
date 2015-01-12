@@ -35,50 +35,7 @@
   </head>
   <body>
 	<div id="wrapper"><!-- start main wrapper -->
-		<div id="header"><!-- start main header -->
-			
-			<div class="top"><!-- top -->
-				<div class="container">
-					<div class="media-top-right">
-						<ul class="media-top clearfix">
-							<li class="item"><a href="" target="blank"><i class="fa fa-twitter"></i></a></li>
-							<li class="item"><a href="" target="blank"><i class="fa fa-facebook"></i></a></li>
-							<li class="item"><a href="" target="blank"><i class="fa fa-linkedin"></i></a></li>
-							<li class="item"><a href="" target="blank"><i class="fa fa-rss"></i></a></li>
-							<li class="item"><a href="" target="blank"><i class="fa fa-google-plus"></i></a></li>
-						</ul>
-						<ul class="media-top-2 clearfix">
-							<li><a href="" class="btn btn-default btn-blueone btn-sm"><i class="fa fa-user"></i> REGISTER</a></li>
-							<li><a href="" class="btn btn-default btn-blueone btn-sm" ><i class="fa fa-sign-in"></i> LOG IN</a></li>
-						</ul>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div><!-- top -->
-			<div class="container"><!-- container -->
-				<div class="row">
-					<div class="col-md-4 col-sm-4"><!-- logo -->
-						<a href="index.html" title="Job Board" rel="home">
-							<img class="main-logo" src="images/logo/logo.png" alt="job board" />
-						</a>
-					</div><!-- logo -->
-					<div class="col-md-8 col-sm-8 main-nav"><!-- Main Navigation -->
-						<a id="touch-menu" class="mobile-menu" href="#"><i class="fa fa-bars fa-2x"></i></a>
-						<nav>
-							<ul class="menu">
-								<li><a href="index.html">HOME</a></li>
-								<li><a  href="jobsearch.html">JOB SEARCH</a></li>
-								<li><a  href="post-job.html">About us</a></li>
-								<li><a  href="post-resume.html">Testimonial</a></li>
-								
-								<li><a  href="short-codes.html">Contact Us</a></li>
-							</ul>
-						</nav>
-					</div><!-- Main Navigation -->
-					<div class="clearfix"></div>
-				</div>
-			</div><!-- container -->
-		</div><!-- end main header -->
+		<?php include 'header.php';?>
 	<div class="job-finder"><!-- start job finder -->
 			<div class="container">
 				<h3>Find a Job</h3>
@@ -295,73 +252,8 @@
 			</div>
 		</div>
 		
+<?php include 'footer.php';?>	
 	
-
-		<div id="footer"><!-- Footer -->
-			<div class="container"><!-- Container -->
-				<div class="row">
-					<div class="col-md-3 footer-widget"><!-- Text Widget -->
-						<h6 class="widget-title">Saepe eveniet ut et voluptates</h6>
-						<div class="textwidget">
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-						</div>
-					</div><!-- Text Widget -->
-					
-					<div class="col-md-2 footer-widget"><!-- Footer Menu Widget -->
-						<h6 class="widget-title">Useful Links</h6>
-						<div class="footer-widget-nav">
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Post A Job</a></li>
-								<li><a href="#">Post A Resume</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">Features</a></li>
-							</ul>
-						</div>
-					</div><!-- Footer Menu Widget -->
-					
-					<div class="col-md-4 footer-widget"><!-- Recent Tweet Widget -->
-						<h6 class="widget-title">Recent Tweets</h6>
-						<div class="recent-twitt">
-							<p>
-								>At vero eos et accusamus et iusto odio dignissimos ducimus 
-							</p>
-							
-							<p>
-								>At vero eos et accusamus et iusto odio dignissimos ducimus
-							</p>
-							
-						</div>
-					</div><!-- Recent Tweet Widget -->
-
-					<div class="col-md-3 footer-widget"><!-- News Leter Widget -->
-						<h6 class="widget-title">Singn For news Letter</h6>
-						<div class="textwidget">
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
-						</div>
-
-						<form role="form">
-							<div class="form-group">
-								<input type="email" class="input-newstler">
-							</div>
-							<button type="button" class="btn-newstler">Sign Up</button>
-						</form>
-						<a href="" target="blank"><i class="media-footer footer-twitt"></i></a>
-						<a href="" target="blank"><i class="media-footer footer-fb"></i></a>
-						<a href="" target="blank"><i class="media-footer footer-linkedin"></i></a>
-						<a href="" target="blank"><i class="media-footer footer-yahoo"></i></a>
-						<a href="" target="blank"><i class="media-footer footer-blog"></i></a>
-						<a href="" target="blank"><i class="media-footer footer-rss"></i></a>
-					</div><!-- News Leter Widget -->
-					<div class="clearfix"></div>
-				</div>
-
-				<div class="footer-credits"><!-- Footer credits -->
-					2015 © <a href="http://srinivasankannan.in">srinivasan kannan</a>. All Rights Reserved.
-				</div><!-- Footer credits -->
-				
-			</div><!-- Container -->
-		</div><!-- Footer -->
 	</div><!-- end main wrapper -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
